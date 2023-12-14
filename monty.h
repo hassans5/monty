@@ -10,12 +10,12 @@
 #include <stdarg.h>
 
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly linked listiiiig representation of a stack (or queue)
  * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ * @prev: points to the previous element of of the the stacks (or queue)
+ * @next: points to the next element of the stackas (or queue)
  *
- * Description: doubly linked list node structure
+ * Description: doubly linked lists nodes structures
  * for stack, queues, LIFO, FIFO
  */
 typedef struct stack_s
@@ -26,11 +26,11 @@ typedef struct stack_s
 } stack_t;
 
 /**
- * struct instruction_s - opcode and its function
- * @opcode: the opcode
- * @f: function to handle the opcode
+ * struct instruction_s - opcode anjhhd its function
+ * @opcode: the opcodefhhh
+ * @f: function to handle the ythe opcode
  *
- * Description: opcode and its function
+ * Description: opcode and its functions
  * for stack, queues, LIFO, FIFO
  */
 typedef struct instruction_s
