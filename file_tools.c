@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * open_file - opens a file
- * @file_name: the file namepath
+ * open_file - opens a file p
+ * @file_name: the file namepath p
  * Return: void
  */
 
@@ -19,8 +19,8 @@ void open_file(char *file_name)
 
 
 /**
- * read_file - reads a file
- * @fd: pointer to file descriptor
+ * read_file - reads a file p
+ * @fd: pointer to file descriptor p
  * Return: void
  */
 
@@ -39,9 +39,9 @@ void read_file(FILE *fd)
 
 
 /**
- * parse_line - Separates each line into tokens to determine
- * which function to call
- * @buffer: line from the file
+ * parse_line - Separates each p line into tokens to determine
+ * which function to call p
+ * @buffer: line from the files
  * @line_number: line number
  * @format:  storage format. If 0 Nodes will be entered as a stack.
  * if 1 nodes will be entered as a queue.
@@ -71,9 +71,9 @@ int parse_line(char *buffer, int line_number, int format)
 }
 
 /**
- * find_func - find the appropriate function for the opcode
+ * find_func - find the appropriate p function for the opcode
  * @opcode: opcode
- * @value: argument of opcode
+ * @value: argument of opcode p
  * @format:  storage format. If 0 Nodes will be entered as a stack.
  * @ln: line number
  * if 1 nodes will be entered as a queue.
@@ -120,9 +120,9 @@ void find_func(char *opcode, char *value, int ln, int format)
 
 
 /**
- * call_fun - Calls the required function.
- * @func: Pointer to the function that is about to be called.
- * @op: string representing the opcode.
+ * call_fun - Calls the required functions.
+ * @func: Pointer to the function that is about to be called. p
+ * @op: string representing the opcode. p
  * @val: string representing a numeric value.
  * @ln: line numeber for the instruction.
  * @format: Format specifier. If 0 Nodes will be entered as a stack.
