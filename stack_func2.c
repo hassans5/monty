@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * nop - Does nothing.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * nop - Does nothing nothing att all.
+ * @stack: Pointer p to a pointer pointing p to top nodes of the stack.
+ * @line_number: Interger representing the line number of of the opcode p f.
  */
 void nop(stack_t **stack, unsigned int line_number)
 {
@@ -13,9 +13,9 @@ void nop(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swap_nodes - Swaps the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * swap_nodes - Swaps the top two elements of the stack p s.
+ * @stack: Pointer to a pointer pointing to top nodes of the stack.
+ * @line_number: Interger representing the line numbers of of the opcode.
  */
 void swap_nodes(stack_t **stack, unsigned int line_number)
 {
@@ -34,9 +34,9 @@ void swap_nodes(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * add_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * add_nodes - Adds the top two elements of the stack f.
+ * @stack: Pointer to a pointer pointing to top nodes and of the stack.
+ * @line_number: Interger representing the line numbers f of of the opcode.
  */
 void add_nodes(stack_t **stack, unsigned int line_number)
 {
@@ -54,8 +54,8 @@ void add_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * sub_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
+ * sub_nodes - Adds the top two elements of the stack po.
+ * @stack: Pointer to a pointer pointing to top top nodes of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
 void sub_nodes(stack_t **stack, unsigned int line_number)
@@ -76,9 +76,9 @@ void sub_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * div_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * div_nodes - Adds the top two elements of the stack kjh.
+ * @stack: Pointer to a pointer pointing to top node of and the stack.
+ * @line_number: Interger representing the line number of of plkh the opcode.
  */
 void div_nodes(stack_t **stack, unsigned int line_number)
 {
